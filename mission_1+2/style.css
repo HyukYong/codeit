@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ROKAFSans';
+    src: url('./fonts/ROKAF\ Sans\ Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    padding: 9px 200px;
+    border-bottom: 1px solid #DFDFDF;
+    width: 100%;
+}
+
+h1 {
+    font-family: Pretendard;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    color: #000000;
+}
+
+h2 {
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+}
+
+h3 {
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #3692FF;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width : 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.logo-title {
+    font-family: ROKAFSans;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3692FF;
+    min-width: 110px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.login {
+    font-family: Pretendard;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #3692FF;
+    color: white;
+    width: 128px;
+    min-width: 128px;
+    height: 48px;
+    padding: 12px 23px;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.color-container {
+    background-color: #CFE5FF;
+    display: flex;
+    justify-content: center;
+}
+
+.seeWhat {
+    height: 540px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 70px 0 auto;
+    padding-top: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.see-button {
+    font-family: Pretendard;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-decoration: none;
+    background-color: #3692FF;
+    color: white;
+    width: 100%;
+    height: 56px;
+    padding: 16px 124px;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-width: 340px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 60px;
+    min-width: 200px;
+}
+
+.body-container {
+    background-color: #FCFCFC;
+    width: 988px;
+    margin: 138px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.text-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+}
+
+.text-container-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+
+.bottom-banner {
+    height: 540px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 0 auto;
+    padding-top: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
+}
+
+footer {
+    background-color: #111827;
+    padding: 32px 200px;
+    height: 160px;
+}
+
+.bottombar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.codeit25 {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9CA3AF;
+}
+
+.policy, .faq {
+    text-decoration: none;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    color: #E5E7EB;
+    /* cursor: pointer; */
+}
+
+.bottom-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.colorblock {
+    background-color: #FCFCFC;
+    width: 100%;
+    height: 138px;
+}
+
+.login-logo-container {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 396px;
+    height: 132px;
+}
+
+.login-logo-title {
+    font-family: ROKAFSans;
+    font-size: 66px;
+    font-weight: 700;
+    color: #3692FF;
+}
+
+.login-box-container {
+    background-color: #FCFCFC;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.login-body {
+    display: flex;
+    width: 1920px;
+    padding: 231px 640px 284px 640px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFC;
+}
